@@ -28,9 +28,9 @@ button {
     background-color: white;
 }
 
+
 @each $button in btn-outline-primary {
   .btn-outline-primary {
-    color: $color;
     display: inline-block;
     text-decoration: none;
     padding: 10px;
@@ -39,16 +39,21 @@ button {
     padding: 15px 15px 15px 15px;
     justify-content: center;
     color: #ffffff;
-    background-color: $colorVioleta;
-    border-radius: 10px;
-    border:none;
+    background-color: #f9f9f9;
+    border-radius: 30px;
+    border-color: $colorVioleta;
     a {
-        color: white;
+        color: $colorVioleta;
         font-style: $fuente;
         }
     &:hover {
-        background: linear-gradient(to right, #1f1b4a, $colorVioleta);
+        background-color: $colorVioleta;
+         a {
+        color: white;
+        font-style: $fuente;
         }
+        }
+       
     }
 }
 
@@ -502,7 +507,7 @@ p {
     justify-content: center;
     color: #ffffff;
     background: linear-gradient(to right, $colorVioleta , #1f1b4a);
-    border-radius: 10px;
+    border-radius: 50px;
     border:none;
     margin-top: 10px;
     &.btn-primary:hover {
@@ -570,7 +575,7 @@ p {
     text-align: center;
     width: 90px;
     height: 50px;
-    border-radius: 10px;
+    border-radius: 50px;
 }
 
 #formulario .form-control-file, .form-control-range {

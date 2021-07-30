@@ -4,7 +4,12 @@ body {
   font-family: "Roboto", sans-serif;
   color: #000; }
 
-/*BOTONES*/
+/*BOTONES y MENU HAMBURGUESA*/
+.navbar-dark .navbar-toggler {
+  color: #6610f2;
+  border-color: #6610f2;
+  background-color: #6610f2; }
+
 button {
   cursor: pointer;
   border: none;
@@ -402,7 +407,7 @@ p.nombre {
   text-decoration: none;
   padding: 10px;
   font-weight: 500;
-  font-size: 1em;
+  font-size: 0.8em;
   padding: 15px 15px 15px 15px;
   justify-content: center;
   color: #ffffff;
@@ -421,6 +426,8 @@ p.nombre {
 /*ÚLTIMA GALERIA DE FOTOS*/
 .image {
   width: 760px; }
+  .image:hover {
+    width: 860px; }
 
 .imageDos {
   width: 380px; }

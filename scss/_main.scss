@@ -19,7 +19,15 @@ body{
     color: $colorGrisDos;
 }
 
-/*BOTONES*/
+/*BOTONES y MENU HAMBURGUESA*/
+
+element.style {
+}
+.navbar-dark .navbar-toggler {
+    color: #6610f2;
+    border-color: #6610f2;
+    background-color: #6610f2;
+}
 
 button {
     cursor: pointer;
@@ -48,6 +56,7 @@ button {
         }
     &:hover {
         background-color: $colorVioleta;
+
          a {
         color: white;
         font-style: $fuente;
@@ -502,7 +511,7 @@ p {
     text-decoration: none;
     padding: 10px;
     font-weight: 500;
-    font-size: 1em;
+    font-size: 0.8em;
     padding: 15px 15px 15px 15px;
     justify-content: center;
     color: #ffffff;
@@ -526,6 +535,9 @@ p {
 
 .image {
     width: 760px;
+    &:hover {
+        width: 860px;
+    }
 }
 
 .imageDos {
